@@ -23,6 +23,7 @@ def home():
 @app.route('/debug-sentry')
 def trigger_error():
     print("hello there")
+    return "hello there"
 
 
 if __name__ == "__main__":
